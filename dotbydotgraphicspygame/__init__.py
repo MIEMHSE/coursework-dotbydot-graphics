@@ -29,7 +29,7 @@ def draw_all(surface):
 def main():
     pygame.init()
     screen = pygame.display.set_mode(DISPLAY)
-    pygame.display.set_caption("Hello, world!")
+    pygame.display.set_caption("dotbydot-graphics :: variant56")
     bg = Surface((WIN_WIDTH, WIN_HEIGHT))
     bg.fill(Color(BACKGROUND_COLOR))
 
