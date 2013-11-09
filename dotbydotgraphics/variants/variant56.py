@@ -5,8 +5,8 @@ __author__ = 'Sergey Sobko'
 __email__ = 'S.Sobko@profitware.ru'
 __copyright__ = 'Copyright 2013, The Profitware Group'
 
-from dotbydotgraphics.lib.brezenkhem import draw_line_brezenkhem as draw_line
-from dotbydotgraphics.lib.circle import draw_circle
+from dotbydotgraphics.library.brezenkhem import draw_line_brezenkhem as draw_line
+from dotbydotgraphics.library.circle import draw_circle
 
 
 def draw(width, height):

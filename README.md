@@ -10,8 +10,8 @@ Contains the following algorithms:
 * drawing circle dot by dot
 
 TODO list includes:
-- [ ] rotating elements
-- [ ] moving elements
+* rotating elements
+* moving elements
 
 Installation
 ------------
