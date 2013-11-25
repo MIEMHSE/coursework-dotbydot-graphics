@@ -12,6 +12,7 @@ import pygame
 from pygame import *
 
 from dotbydotgraphics.variants.variant56 import draw as draw_variant56
+from dotbydotgraphics.library.matrix import rotate_point_over_point_by_angle
 
 
 WIN_WIDTH = 800
@@ -23,6 +24,7 @@ DRAW_COLOR = "#FFFFFF"
 
 def draw_all(surface):
     for point in draw_variant56(WIN_WIDTH, WIN_HEIGHT):
+        point = rotate_point_over_point_by_angle(point, (int(WIN_WIDTH / 2), int(WIN_HEIGHT / 2)), 0.1)
         pygame.draw.circle(surface, Color(DRAW_COLOR), point, 1)
 
 
